@@ -1,7 +1,9 @@
 
 
 <h3>app.py</h3>
-<p>Basic Routing</p>
+<ul>
+<li>Basic Routing</li>
+</ul>
 
 <hr/>
 <h3>app2.py</h3>
@@ -12,3 +14,11 @@
 <li>redirect page</li>
 
 </ul>
+
+<hr/>
+<h3>app3.py</h3>
+<ul>
+    <li> get form data ( login ) </li>
+    <li> get file from form </li>
+    <li> get json request </li>
+    

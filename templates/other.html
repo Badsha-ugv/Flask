@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Json Request</h3>
+    <button id="btn">send request</button>
+
+    <script>
+        const btn = document.getElementById('btn')
+        const data = {title:"A blog title", desc:"A blog desc"}
+
+        btn.addEventListener('click', ()=>{
+            fetch('{{url_for("json_req")}}', {
+                method: 'POST',
+                headers:{
+                    'Content-Type': 'application/json; charset= utf-8'
+
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.log(error))
+        })
+    </script>
+</body>
+</html>
