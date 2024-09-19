@@ -48,3 +48,14 @@
 <ul>
     <li>flash message</li>
 </ul>
+
+<hr/>
+<h3>flask_db01</h3>
+
+<ul>
+    <li>connect flask with sqlite</li>
+    <li>Create model</li>
+    <li>add item to model</li>
+    <li>show all item in template</li>
+
+</ul>
