@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} Index {% endblock %}
+
+{% block content %}
+<h3>Hello {{name}}</h3>
+
+<!-- filter  -->
+<p>{{name|reverse_str}}</p>
+
+<a href="{{ url_for ('profile') }}">go to profile</a>
+
+{% endblock %}
