@@ -22,3 +22,10 @@
     <li> get file from form </li>
     <li> get json request </li>
 </ul>
+
+<hr/>
+<h3>app4.py</h3>
+<ul>
+    <li>load static images </li>
+    <li>load static css </li>
+</li>
