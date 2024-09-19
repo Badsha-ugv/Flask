@@ -9,6 +9,7 @@ def index():
     return render_template('flashmsg.html')
 
 
+
 @app.route('/login', methods=['GET','POST'])
 def login():
     if request.method == 'GET':

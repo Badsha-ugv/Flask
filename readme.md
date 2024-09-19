@@ -29,3 +29,22 @@
     <li>load static images </li>
     <li>load static css </li>
 </li>
+</ul>
+
+<hr/>
+<h3>app5.py</h3>
+<ul>
+    <li>set session </li>
+    <li>get session </li>
+    <li>clear session </li>
+    <li>set cookie </li>
+    <li>get cookie </li>
+    <li>clear cookie </li>
+</ul>
+
+<hr/>
+<h3>app6.py</h3>
+
+<ul>
+    <li>flash message</li>
+</ul>
