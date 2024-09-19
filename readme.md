@@ -21,4 +21,4 @@
     <li> get form data ( login ) </li>
     <li> get file from form </li>
     <li> get json request </li>
-    
+</ul>
