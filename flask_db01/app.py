@@ -6,13 +6,12 @@ from flask_migrate import Migrate
 app = Flask(__name__)
 app.debug = True
 
-
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydb.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False 
+
 # setup db 
 db = SQLAlchemy(app)
 
-# db.init_app(app)
 # migrate db
 migrate = Migrate(app, db)
 
@@ -50,3 +49,12 @@ if __name__ == '__main__':
         db.create_all()
     app.run()
 
+
+
+'''
+cmd: 
+flask db init
+flask migrate
+flask upgrade
+
+'''

@@ -59,3 +59,12 @@
     <li>show all item in template</li>
 
 </ul>
+
+<hr>
+<h3>flask_auth.py</h3>
+<ul>
+    <li>user table</li>
+    <li>user registration</li>
+    <li>user login</li>
+    <li>authentication check</li>
+</ul>
